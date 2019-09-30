@@ -19,14 +19,12 @@ document.addEventListener('DOMContentLoaded', function () {
             styledMode: true,
             spacingBottom: 25,
             spacingRight: 100,
-            spacingLeft: -10
-        }, 
+        },
         title: {
             text: null
         },
         data: {
-            googleSpreadsheetKey: '1ACho-7HV21S9J4gSZC_TH2uNmTS7xeBabJm4ySz-zEs',
-            googleSpreadsheetWorksheet: 3
+            googleSpreadsheetKey: '174P8VQdsN9feChuB5n2CrODFX-srVhuY4W2myhkzw38'
         },
         plotOptions: {
             series: {
@@ -61,8 +59,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 useHTML: true,
                 overflow: 'allow'
             },
-            min: 0,
-            max: 10,
+            min: 8,
+            max: 18,
             tickAmount: 6
         },
         credits: {
@@ -70,7 +68,9 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         tooltip: {
             shadow: false,
-            padding: 10
+            padding: 10,
+            shared: true,
+            valueSuffix: '%'
         },
         responsive: {
             rules: [{
